@@ -1,0 +1,28 @@
+.dropdown-categories {
+    display: block;
+    visibility: hidden;
+    opacity:0;
+    transform: translateY(50px);
+    transition:.5s ease all;
+  }
+  .dropdown-categories.show {
+    display: block;
+    visibility: visible;
+    opacity:1;
+    transform: translateY(0px);
+    transition:.5s ease all;
+  }
+  .nav-item1::after{
+    content:'';display:block;
+    width:0px;
+    height:2px;
+    background:#ff6a00;
+    transition: 0.2s;
+  }
+  .nav-item1:hover::after{
+    width:100%;
+  }
+  .nav-link{
+    padding:15px 5px;
+    transition:0.2s;
+  }

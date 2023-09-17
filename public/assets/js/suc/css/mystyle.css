@@ -1,0 +1,84 @@
+
+.card-product-grid .info-wrap {
+    padding: 4% !important;
+}
+.list-search {
+  position: absolute;
+  width: 96%;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.hide {
+  display: none !important;
+}
+.nav-link {
+  padding: 8px 5px !important;
+}
+.container.container-extra {
+  width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.br-8 {
+  border-radius: 8px;
+}
+.text-muted {
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+@media only screen and (max-width: 760px) {
+  .slick-prev {
+      left: 5px !important;
+  }
+  .slick-next {
+      right: 5px !important;
+  }
+}
+.gallery-wrap .thumbs-wrap .item-thumb {
+    width: 63px;
+    height: 59px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin: 3px;
+    display: inline-block;
+    overflow: hidden;
+}
+.xzoom-gallery {
+    margin-top: 5px
+}
+.xzoom {
+    margin-top: 10px
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #d95a00;
+    border-color: #c50;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0.37rem;
+    border-top-right-radius: 0.37rem;
+}
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0.37rem;
+    border-bottom-left-radius: 0.37rem;
+}
+.invalid-feedback {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+}
+.text-underline {
+  text-decoration: underline !important;
+}
+.mtp-10 {
+  margin-top: 10%;
+}
